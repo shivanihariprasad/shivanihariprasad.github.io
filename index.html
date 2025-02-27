@@ -41,100 +41,41 @@
                 </div>
             </div>
             <div class="col-md-8 pt-5 about">
-                I am a second-year graduate student at the
-                 <a class="in-text"
-                     href="https://ucsd.edu/"
-                     target="_blank"> University of California, San Diego</a>,  pursuing a Master's in Computer Science with a specialization in systems. 
-                     I am interested in working on problems that focus on architecting large-scale systems.
-                 I have been fortunate to work with an amazing set of researchers at <a class="in-text" href="https://www.caida.org/"
-                 target="_blank"> Caida </a> (UCSD). 
+                As a PhD student at <a class="in-text"
+                href="https://ucsd.edu/"
+                target="_blank"> University of California, San Diego</a> advised by <a class="in-text"
+                href="https://www.caida.org/staff/kc__claffy/"
+                target="_blank"> Kimberly Claffy</a>, my research focuses on internet security and performance, with a strong interest in the potential and applications of Low Earth Orbit (LEO) satellites.
+                 My work aims to enhance our understanding of global connectivity and develop innovative approaches to studying satellite communication networks. 
+                I have been fortunate to work with an amazing set of researchers at <a class="in-text" href="https://www.caida.org/"
+                 target="_blank"> CAIDA </a>. 
+            
                  
                  
-                 I also worked  at <a class="in-text" href="https://www.trellix.com/"
+                 Previously, I  worked at <a class="in-text" href="https://www.trellix.com/"
                      target="_blank">Trellix( formerly McAfee) </a> as a Software Development Engineer for three years, where I worked on a product called <a class="in-text"
                      href="https://www.trellix.com/products/epo/" target="_blank">ePolicy Orchestrator</a>.
 
                  I graduated with a Bachehlor's of Engineering in Computer Science from <a class="in-text"
                      href="https://www.rvce.edu.in/ target="_blank">RV College of Engineering</a>, Bangalore, India in 2019. For more
-                 details, check my <a class="in-text" href="assets/ShivaniResume.pdf" target="_blank">CV</a> or hit me up
+                 details, check my <a class="in-text" href="assets/ShivaniResume_PHD.pdf" target="_blank">CV</a> or hit me up
                  on my <a class="in-text" href="mailto:shariprasad@ucsd.edu">email</a>.
 
-                 <p class="header pt-5">Projects</p>
-                 <div class="py-2">
-                 <p class="paper my-2 pl-2">
-                     <span class="papertitle">Geoping Measurement Pipeline</span><br>
-                     We deployed a global measurement pipeline that automated ping experiments across a wide array of regions, 
-                     specifically from 27 Amazon Web Services(AWS), 38 Google Cloud Platform (GCP) and 36 Azure regions, targeting all internet router IP addresses. 
-                     Additionally, We  developed Terraform scripts to efficiently set up cloud infrastructures and automate security 
-                     and computing resources on both GCP and Azure, improving our operational workflow and speed. |
-                     <a class="tag" href="https://github.com/CAIDA/geoping-private/" target="_blank">Link</a><span class="tagsep">|</span>
-             
-                 </p>
-                 </div>
-                 <div class="py-2">
-                    <p class="paper my-2 pl-2">
-                        <span class="papertitle">Inferring Multi-lateral Peering</span><br>
-                        This project aims to solve AS incompleteness problem.
-                        It invloves mining BGP communities used by Internet exchange points route servers to implement multilateral peering.
-                        We implemented an algorithm to mine these community values, extract the route server participants, and infer their export policies.
-                        It was initally set up in 2015 and currently we focused on fixing the pipeline by modifying parsing logic for looking glass servers, 
-                        updating the looking glass servers' URL and querying mechanism and removing LG servers that are no more serviceable. |
-                        
-                        <a class="tag" href="https://gitlab.caida.org/CAIDA/dataadmin/AS-Relationships" target="_blank">Link</a><span class="tagsep">|</span>
-                
-                    </p>
-                    </div>
-                    <div class="py-2">
-                        <p class="paper my-2 pl-2">
-                            <span class="papertitle">M-Lab Bigquery</span><br>
-                            This project aims to craft queries to garner speed test results and corresponding traceroutes from Comcast and AT&T network. 
-                            We created statistics for a specific NDT server to determine which service provider's router attempted to connect to a server provider's client. |
-                            <a class="tag" href="https://github.com/CAIDA/mlabbq/tree/shari" target="_blank">Link</a><span class="tagsep">|</span>
-                        </p>
-                        </div>
-                        <div class="py-2">
-                            <p class="paper my-2 pl-2">
-                                <span class="papertitle">Ookla Server Validation</span><br>
-                                This project aims to validate the geolocation of ookla servers by using the geoping measurement pipeline and launching measurements on RIPE Atlas. |
-        
-                                <a class="tag" href="https://gitlab.caida.org/CAIDA/rabbits/ooklavalidation/-/tree/shari-main-patch-79002?ref_type=headsi" target="_blank">Link</a><span class="tagsep">|</span>
-                            </p>
-                            </div>
-                            <div class="py-2">
-                                <p class="paper my-2 pl-2">
-                                    <span class="papertitle">Launching measurements to SpeedTest server from ARK Vantage Points</span><br>
-                                    This project aims to launch measurements to Fast.com, which is an internet speed test service provided by Netflix from all ark vantage points parallely.
-                                    This employs the python module of Scamper.
-                                </p>
-                                </div>
-                                <div class="py-2">
-                                    <p class="paper my-2 pl-2">
-                                        <span class="papertitle">'SurfStore': Scalable and Fault-tolerant Dropbox</span><br>
-                                        We engineered a cloud file syncing tool with Go and gRPC, alongside a scalable block storage system capable of handling 100 nodes through consistent hashing. 
-                                        We also integrated the RAFT protocol to ensure fault tolerance and maintain metadata consistency. |
-                                        <a class="tag" href="https://github.com/shivanihariprasad/scalable-fault-tolerant-dropbox" target="_blank">Link</a><span class="tagsep">|</span>
-                                    </p>
-                                    </div>
-                                    <div class="py-2">
-                                        <p class="paper my-2 pl-2">
-                                            <span class="papertitle">Converting 'Wildfire Detection using SmokeyNet' to Serverless</span><br>
-                                            We transformed our machine learning pipeline to a serverless architecture by deploying training and inference processes on AWS Lambda and SageMaker, with data storage and management through EFS and S3. 
-                                            This optimized pipeline manages data ingestion, image processing, and detection tasks efficiently, with costs kept below $0.00006 per invocation. |
-                                            <a class="tag" href="https://github.com/shreyasar2202/smoke-detection-smokeynet" target="_blank">Link</a><span class="tagsep">|</span>
-                                        </p>
-                                        </div>
-                                        <div class="py-2">
-                                            <p class="paper my-2 pl-2">
-                                                <span class="papertitle">Acoustic Species Identification</span><br>
-                                                We developed a multi-species bird classifier that analyzes audio data to identify bird species within recordings. Leveraging the VGG model, we trained this classifier on strongly labeled data, incorporating diverse data augmentation techniques to refine its accuracy.
-                                                 Our efforts culminated in achieving a CMAP score of 0.65 in the BirdCLEF 2023 competition on Kaggle.|
-                                                <a class="tag" href="https://github.com/shivanihariprasad/acoustic-species-identification/" target="_blank">Link</a><span class="tagsep">|</span>
-                                            </p>
-                                            </div>
 
 
                  
                  <p class="header pt-5">Publications</p>
+                 <div class="py-2">
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle">An Integrated Active Measurement Programming Environment</span><br>
+                        Luckie, Matthew,  <span class="thisauthor">Shivani Hariprasad</span> Raffaele Sommese, Brendon Jones, Ken Keys, Ricky Mok, and K. Claffy
+                        <span class="conf"><a class="confshort" href="https://udesa.edu.ar/pam25/accepted-papers">PAM'25</a> 
+                           |Passive and Active Measurement </span><br>
+                       
+           
+                        <a class="tag" href="https://ieeexplore.ieee.org/document/9031021" target="_blank">Link</a>
+                    </p>
+                    </div>
                  <div class="py-2">
                  <p class="paper my-2 pl-2">
                      <span class="papertitle">Using virtual reality to boost the effectiveness of
